@@ -1,0 +1,97 @@
+/* ProblemsPage.css */
+
+.problems-container {
+  display: flex;
+}
+
+.content-wrapper {
+  flex: 1;
+}
+
+.content-area {
+  background-color: #F3F6FE;
+  min-height: 91vh;
+  padding-top: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.problem-card-container {
+  background-color: #F3F6FE;
+  border-radius: 3px;
+  padding: 1px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 0;
+  overflow-x: auto;
+  display: flex;
+  white-space: nowrap;
+}
+
+.problem-main-box {
+  height: 50vh;
+  flex: 1;
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+  padding: 8px;
+  margin: 16px 16px;
+  position: relative;
+}
+
+.small-box {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 98.3%;
+  height: 50px;
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-text {
+  margin-left: 8px;
+  width: 35%;
+  text-align: left;
+}
+
+.center-text {
+  flex: 1;
+  text-align: left;
+}
+
+.button-box {
+  display: flex;
+}
+
+.nav-button {
+  margin-right: 8px;
+  background-color: #F3F6FE;
+}
+
+
+.custom-solutions-style .problemBox {
+  height:flex;
+  text-align: center;
+}
+
+.custom-solutions-style .explanationBox {
+  height:800px;
+}
+
+.questionImage {
+  width: 100%;         /* 부모 요소의 너비에 맞춰 이미지 너비 설정 */
+  height: auto;        /* 비율을 유지하면서 높이를 자동으로 조정 */
+  max-width: 600px;    /* 이미지 최대 너비 설정 (필요에 따라 조정 가능) */
+  object-fit: contain; /* 이미지가 잘리지 않도록 비율을 유지하면서 축소 */
+  display: inline-block; /* 중앙 정렬을 위해 inline-block 사용 */
+  margin: 0 auto;
+}
+
+
+
+
+
